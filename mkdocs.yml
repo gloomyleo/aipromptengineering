@@ -1,0 +1,35 @@
+site_name: AI Security Labs (Offline)
+site_url: https://your-org.github.io/ai-security-labs-offline/
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - toc.integrate
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Labs:
+      - Lab 1 – Prompt Injection: labs/lab1.md
+      - Lab 2 – Adversarial Examples: labs/lab2.md
+      - Lab 3 – Model Extraction: labs/lab3.md
+      - Lab 4 – Data Poisoning: labs/lab4.md
+  - Framework Mapping: frameworks.md
+  - FAQ: faq.md
+  - Report Template: report-template.md
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - toc:
+      permalink: true
+extra_css:
+  - styles/extra.css
+plugins:
+  - search
