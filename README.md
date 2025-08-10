@@ -24,7 +24,7 @@
 | 3 | Model Extraction | API scraping, cloning, rate limiting, auth | `labs/lab3_model_extraction` |
 | 4 | Data Poisoning | Detecting label flips/outliers; retraining | `labs/lab4_data_poisoning` |
 
-> Full documentation: **https://your-org.github.io/ai-security-labs-offline/**
+> Full documentation: **https://gloomyleo/aipromptengineering/**
 
 ## ⚡ Quick start
 ```bash
